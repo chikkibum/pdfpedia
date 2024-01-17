@@ -182,7 +182,7 @@ export function ChatWindow(props: {
           <li className="text-l">
             🏡
             <span className="ml-2">
-              1. Explore the Live Version: You can experience PDF-pedia right away by visiting the live version at [PDF-pedia Live Demo](Insert demo link). This gives you a quick overview of what the project can do.
+              1. Explore the Live Version: You can experience PDF-pedia right away by visiting the live version at [PDF-pedia Live Demo](https://pdfpedia.vercel.app/). This gives you a quick overview of what the project can do.
             </span>
           </li>
           <li className="hidden text-l md:block">
@@ -199,7 +199,7 @@ export function ChatWindow(props: {
 Install and configure Ollama on your system as per the provided instructions.
 Allow Site Access to Ollama: To enable PDF-pedia to communicate with Ollama, you need to set a few environment variables. Open a terminal and run the following commands:
               <br/>
-              <pre className="inline-flex px-2 py-1 my-2 text-[#FE7A36] rounded">OLLAMA_ORIGINS=https"Deployment_Link" OLLAMA_HOST=127.0.0.1:11435 ollama serve</pre>
+              <pre className="inline-flex px-2 py-1 my-2 text-[#FE7A36] rounded">OLLAMA_ORIGINS=https://pdfpedia.vercel.app OLLAMA_HOST=127.0.0.1:11435 ollama serve</pre>
               <br/>
               4. Pull Mistral Instance: In a separate terminal window, run the following command to connect PDF-pedia to the locally running Mistral instance:
               <br/>
