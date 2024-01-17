@@ -13,15 +13,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Fully Client-Side Chat Over Documents</title>
-        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <title>pdfpedia</title>
+        <link rel="shortcut icon" href="/images/favicon.png" />
         <meta
           name="description"
           content="Upload a PDF, then ask questions about it - without a single remote request!"
         />
         <meta
           property="og:title"
-          content="Fully Client-Side Chat Over Documents"
+          content="pdfpedia"
         />
         <meta
           property="og:description"
@@ -33,7 +33,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Fully Client-Side Chat Over Documents"
+          content="pdfpedia"
         />
         <meta
           name="twitter:description"
