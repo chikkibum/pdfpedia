@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,400;5..1200,500;5..1200,600;5..1200,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Julius+Sans+One&display=swap");
+
+/* font-family: 'Cormorant Garamond', serif; */
+/* font-family: 'Julius Sans One', sans-serif; */
+
+.bc {
+  transition: all 0.3s linear;
+  transform: translateY(-100%);
+}
+
+.bcc {
+  transition: all 0.2 linear;
+  opacity: 1;
+}
+
+.firstPage,
+.startPage {
+  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair", serif; */
+}
+
+.startPage p {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-family: "Playfair", serif;
+  font-weight: 500;
+}
+
+body {
+  background: #222831;
+}
+
+.bcccc {
+  font-family: "Playfair Display", serif;
+}
+.bccc {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.fisrtPage {
+  background-color: #393e46;
+  /* background-color:  !important; */
+}
