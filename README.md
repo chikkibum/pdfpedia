@@ -35,6 +35,9 @@ Our application relies on a robust tech stack, carefully chosen to ensure high p
 
 - **Transformers.js for Embeddings**: Transformers.js is a critical component responsible for running embeddings in the browser. This technology ensures that PDF documents are processed with high accuracy and efficiency.
 
+- ![tech used](https://res.cloudinary.com/dwtytn7fl/image/upload/v1705556637/iujokb6wkf4aosbihkfp.jpg)
+- ![tech used](https://res.cloudinary.com/dwtytn7fl/image/upload/v1705556637/i0tgo0jh3gi8y127zmuf.jpg)
+
 ## How to Run and Use PDF-pedia 🚀
 
 Running and using PDF-pedia is a straightforward process. It's a Next.js app that allows you to extract content from uploaded PDFs, store it, and perform Rapid Answer Generation (RAG), all on the client side. Plus, you can even go offline after the site loads! Here's a step-by-step guide to get started:
@@ -56,13 +59,13 @@ There are no required environment variables!
    To enable PDF-pedia to communicate with Ollama, you need to set a few environment variables. Open a terminal and run the following commands:
 
    ```bash
-   $OLLAMA_ORIGINS=https"Deployment_Link" OLLAMA_HOST=127.0.0.1:11435 ollama serve
+   OLLAMA_ORIGINS=https"Deployment_Link" OLLAMA_HOST=127.0.0.1:11435 ollama serve
 
 4. **Pull Mistral Instance**:
 In a separate terminal window, run the following command to connect PDF-pedia to the locally running Mistral instance:
 
    ```bash
-   $ OLLAMA_HOST=127.0.0.1:11435 ollama pull mistral
+   OLLAMA_HOST=127.0.0.1:11435 ollama pull mistral
 
 ## How to Contribute 🌟
 
