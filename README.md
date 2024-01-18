@@ -63,7 +63,7 @@ There are no required environment variables!
    To enable PDF-pedia to communicate with Ollama, you need to set a few environment variables. Open a terminal and run the following commands:
 
    ```bash
-   OLLAMA_ORIGINS=https"Deployment_Link" OLLAMA_HOST=127.0.0.1:11435 ollama serve
+   OLLAMA_ORIGINS=https"https://pdfpedia.vercel.app" OLLAMA_HOST=127.0.0.1:11435 ollama serve
 
 4. **Pull Mistral Instance**:
 In a separate terminal window, run the following command to connect PDF-pedia to the locally running Mistral instance:
