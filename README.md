@@ -35,8 +35,8 @@ Our application relies on a robust tech stack, carefully chosen to ensure high p
 
 - **Transformers.js for Embeddings**: Transformers.js is a critical component responsible for running embeddings in the browser. This technology ensures that PDF documents are processed with high accuracy and efficiency.
 
-- ![tech used](https://res.cloudinary.com/dwtytn7fl/image/upload/v1705556637/iujokb6wkf4aosbihkfp.jpg)
-- ![tech used](https://res.cloudinary.com/dwtytn7fl/image/upload/v1705556637/i0tgo0jh3gi8y127zmuf.jpg)
+- ![tech used](https://res.cloudinary.com/dwtytn7fl/image/upload/v1705557292/20240118_112316_nubake.png)
+- ![tech used](https://res.cloudinary.com/dwtytn7fl/image/upload/v1705557291/20240118_112346_lb5zom.png)
 
 ## How to Run and Use PDF-pedia 🚀
 
