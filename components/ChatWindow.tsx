@@ -179,12 +179,6 @@ export function ChatWindow(props: {
           HOW TO USE❓
         </h3>
         <ul>
-          <li className="text-l">
-            🏡
-            <span className="ml-2">
-              1. Explore the Live Version: You can experience PDF-pedia right away by visiting the live version at [PDF-pedia Live Demo](https://pdfpedia.vercel.app/). This gives you a quick overview of what the project can do.
-            </span>
-          </li>
           <li className="hidden text-l md:block">
             🌐
             <span className="ml-2">
