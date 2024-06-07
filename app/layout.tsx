@@ -42,7 +42,7 @@ export default function RootLayout({
         <meta name="twitter:image" content="/images/og-image.png" />
       </head>
       <body className={publicSans.className}>
-        <div className="flex flex-col p-4 md:p-12 h-screen overflow-scroll">{children}</div>
+        <div className="flex flex-col md:p-2 h-screen overflow-scroll">{children}</div>
       </body>
     </html>
   );
